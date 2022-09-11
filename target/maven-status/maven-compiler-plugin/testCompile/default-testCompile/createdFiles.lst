@@ -1,0 +1,8 @@
+pageObjects\NewUserRegistration.class
+stepDefs\TestRunner.class
+pageObjects\LoginPage.class
+stepDefs\NewUserReg.class
+stepDefs\PurchasePage.class
+stepDefs\BaseClass.class
+pageObjects\ProductPurchase.class
+stepDefs\LoginPageScenarios.class
