@@ -21,7 +21,7 @@ public class LoginPageScenarios {
 	
 	@When("I have opened the mediCare application in browser")
 	public void i_have_opened_the_mediCare_application_in_browser() {
-		driver.get("http://localhost:8080/medicare/home");
+		driver.get("http://localhost:8082/medicare/home");
 	}
 	
 	@Given("click on login link")

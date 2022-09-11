@@ -1,0 +1,647 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "Launch the browser",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 849687900,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I have opened the mediCare application in browser",
+            "match": {
+              "location": "LoginPageScenarios.i_have_opened_the_mediCare_application_in_browser()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 110580799,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "click on Sign Up link",
+            "match": {
+              "location": "NewUserReg.click_on_Sign_Up_link()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-09-11T19:36:13.183Z",
+        "before": [
+          {
+            "result": {
+              "duration": 4521617500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "BaseClass.setup()"
+            }
+          }
+        ],
+        "line": 7,
+        "name": "Adding new customer",
+        "description": "",
+        "id": "this-feature-would-be-used-to-add-new-user;adding-new-customer",
+        "after": [
+          {
+            "result": {
+              "duration": 176400100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "BaseClass.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1593479800,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user enter all customer details",
+            "match": {
+              "location": "NewUserReg.user_enter_all_customer_details()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 369182800,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "click on Next button",
+            "match": {
+              "location": "NewUserReg.click_on_Next_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1629001400,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "user enter sign up address details",
+            "match": {
+              "location": "NewUserReg.user_enter_sign_up_address_details()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 205815899,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "click on Next-Confirm button",
+            "match": {
+              "location": "NewUserReg.click_on_Next_Confirm_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 68800899,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "user details will be displayed",
+            "match": {
+              "location": "NewUserReg.user_details_will_be_displayed()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 3617397899,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "click on confirm button",
+            "match": {
+              "location": "NewUserReg.click_on_confirm_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 77096900,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "user can see the confirmation message \"You can use your email address as username to login!\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"You can use your email address as username to login!\"",
+                  "offset": 38
+                }
+              ],
+              "location": "NewUserReg.user_can_see_the_confirmation_message(String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "This feature would be used to add new user",
+    "description": "",
+    "id": "this-feature-would-be-used-to-add-new-user",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/features/customerRegistration.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "Launch The browser",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 885818099,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I have opened the mediCare application in browser",
+            "match": {
+              "location": "LoginPageScenarios.i_have_opened_the_mediCare_application_in_browser()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2107656101,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "click on login link",
+            "match": {
+              "location": "LoginPageScenarios.click_on_login_link()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-09-11T19:36:26.436Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1354510900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "BaseClass.setup()"
+            }
+          }
+        ],
+        "line": 14,
+        "name": "Validate the successful Login",
+        "description": "",
+        "id": "this-feature-would-be-used-to-check-the-login-functionality;validate-the-successful-login;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 183162400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "BaseClass.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 421303600,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I enter username \"kn@gmail.com\" and password \"12345\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"kn@gmail.com\"",
+                  "offset": 17
+                },
+                {
+                  "val": "\"12345\"",
+                  "offset": 45
+                }
+              ],
+              "location": "LoginPageScenarios.i_enter_username_and_password(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 410365599,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I click on the login Button",
+            "match": {
+              "location": "LoginPageScenarios.i_click_on_the_login_Button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5481825201,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I should be Landed on the products page",
+            "match": {
+              "location": "LoginPageScenarios.i_should_be_Landed_on_the_products_page()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "Launch The browser",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 614459500,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I have opened the mediCare application in browser",
+            "match": {
+              "location": "LoginPageScenarios.i_have_opened_the_mediCare_application_in_browser()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2093169900,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "click on login link",
+            "match": {
+              "location": "LoginPageScenarios.click_on_login_link()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-09-11T19:36:37.302Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1591807300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "BaseClass.setup()"
+            }
+          }
+        ],
+        "line": 23,
+        "name": "Validate the Negative Login",
+        "description": "",
+        "id": "this-feature-would-be-used-to-check-the-login-functionality;validate-the-negative-login;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 98476500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "BaseClass.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 383164500,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "I enter username \"kn1@gmail.com\" and password \"123456\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"kn1@gmail.com\"",
+                  "offset": 17
+                },
+                {
+                  "val": "\"123456\"",
+                  "offset": 46
+                }
+              ],
+              "location": "LoginPageScenarios.i_enter_username_and_password(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 187991001,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "I click on the login Button",
+            "match": {
+              "location": "LoginPageScenarios.i_click_on_the_login_Button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2042926800,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "I should get the error message \"Username and Password is invalid!\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Username and Password is invalid!\"",
+                  "offset": 31
+                }
+              ],
+              "location": "LoginPageScenarios.i_should_get_the_error_message(String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "This feature would be used to check the login functionality",
+    "description": "",
+    "id": "this-feature-would-be-used-to-check-the-login-functionality",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/features/login.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "Launch the browser",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 700337600,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I have opened the mediCare application in browser",
+            "match": {
+              "location": "LoginPageScenarios.i_have_opened_the_mediCare_application_in_browser()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2102749500,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "click on login link",
+            "match": {
+              "location": "LoginPageScenarios.click_on_login_link()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 260396201,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user enters username as \"kn@gmail.com\" and password as \"12345\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"kn@gmail.com\"",
+                  "offset": 24
+                },
+                {
+                  "val": "\"12345\"",
+                  "offset": 55
+                }
+              ],
+              "location": "PurchasePage.user_enters_username_as_and_password_as(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 176991500,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "click on the login button",
+            "match": {
+              "location": "PurchasePage.click_on_login_button()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-09-11T19:36:44.327Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1369657800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "BaseClass.setup()"
+            }
+          }
+        ],
+        "line": 9,
+        "name": "Adding products to the cart",
+        "description": "",
+        "id": "product-purchase;adding-products-to-the-cart",
+        "after": [
+          {
+            "result": {
+              "duration": 262624500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "BaseClass.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1138189899,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "user click on View Products tab",
+            "match": {
+              "location": "PurchasePage.user_click_on_View_Products_tab()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1207552301,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "click on cart icon of the selected product",
+            "match": {
+              "location": "PurchasePage.click_on_cart_icon_of_the_selected_product()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1270309399,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "click on Continue shopping button",
+            "match": {
+              "location": "PurchasePage.click_on_Continue_shopping_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 9461800,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "user goes back to products page",
+            "match": {
+              "location": "PurchasePage.user_goes_back_to_products_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 208303900,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "user click on cart icon",
+            "match": {
+              "location": "PurchasePage.user_click_on_cart_icon()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 189404700,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "click on checkout button",
+            "match": {
+              "location": "PurchasePage.click_on_checkout_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1596699100,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "check shipping address and click on select button",
+            "match": {
+              "location": "PurchasePage.check_shipping_address_and_click_on_select_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2555336001,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "provide Card number expiry date and CVV code",
+            "match": {
+              "location": "PurchasePage.provide_Card_number_expiry_date_and_CVV_code()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 293143300,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "click on Pay button",
+            "match": {
+              "location": "PurchasePage.click_on_Pay_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1555502800,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "user should get the confirmation message \"Your Order is Confirmed!!\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Your Order is Confirmed!!\"",
+                  "offset": 41
+                }
+              ],
+              "location": "PurchasePage.user_should_get_the_confirmation_message(String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Product Purchase",
+    "description": "",
+    "id": "product-purchase",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/features/productPurchase.feature",
+    "tags": []
+  }
+]
